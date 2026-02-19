@@ -35,3 +35,28 @@ Pengecekan nilai kosong (atau None) dianjurkan untuk selalu dilakukan menggunaka
 
 Hal ini karena operator is membandingkan identitas data dan identitas data None selalu valid. Sedangkan operator == perbandingannya dilakukan dengan via special method __eq__() yang default method tersebut bisa di-override isinya.
 """
+
+"""
+Operator in digunakan untuk mengecek apakah suatu nilai merupakan bagian dari data kolektif atau tidak.
+
+Operator ini bisa digunakan pada semua tipe data kolektif seperti dictionary, set, tuple, dan list. Selain itu, operator in bisa digunakan pada string untuk pengecekan substring
+"""
+sample_list = [2, 3, 4]
+is_3_exist = 3 in sample_list
+print(f"is 3 exist: {is_3_exist}")
+
+sample_tuple = ("hello", "python")
+is_hello_exist = "hello" in sample_tuple
+print(f"is hello exist {is_hello_exist}")
+
+sample_dict = {"nama": "agung", "age": 49}
+is_key_nama_exist = "nama" in sample_dict
+print(f"is_key_nama_exist {is_key_nama_exist}")
+
+sample_set = {"benjang", "preiiiii"}
+is_prei = "prei" in sample_set
+print(f"is_prei {is_prei}")
+
+text = "Hujan Kerang Ajaib"
+is_Kerang_exist = "Kerang" in text
+print(f"is_Kerang_exist {is_key_nama_exist}")
