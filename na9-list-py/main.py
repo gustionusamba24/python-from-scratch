@@ -192,11 +192,6 @@ list_1 = [10, 70, 20]
 list_1.reverse()
 print("after reversed", list_1)
 
-# membalik urutan element list dengan cara manual
-list_example = [1, 3, 5, 7, 9]
-# for i in range(0, len(list_example)):
-    
-
 """
     copy list
     ada 2 cara untuk menduplikasi list, menggunakan method copy() dan teknik slicing
