@@ -1,7 +1,7 @@
 # membalik urutan element list dengan cara manual
 
-def print_array(length: int):
-    new_array = []
+def print_array(length: int) -> list[int]:
+    new_array: list[int] = []
 
     # while length > 0:
     #     number = int(input("Masukkan angka: "))
@@ -17,7 +17,7 @@ def print_array(length: int):
     return new_array
 
 
-def reverse_array(array: list[int]):
+def reverse_array(array: list[int]) -> list[int]:
     copy_of_array = array.copy()
 
     max_index = len(array) - 1
