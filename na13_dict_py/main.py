@@ -72,3 +72,22 @@ print("affiliation: ")
 
 for item in profile["affiliations"]:
     print("   -> %s (%s)" % (item["name"], item["affiliation"]))
+
+"""
+    Operasi data dictionary
+"""
+# Pengaksesan item bisa menggunakan dict["key"] atau get()
+# Menambah item dict menggunakan update() diikuti bentuk dictionary
+# Menghapus item dict menggunakan pop() dengan argumen nama key-nya yang ada
+
+"""
+    Pengaksesan dictionary keys
+    digunakan untuk mengakses semua keys dictionary, hasilnya adalah tipe data view objects dict_keys.
+"""
+print(list(profile.keys()))
+
+# akses value
+print(list(profile.values()))
+
+# digunakan untuk mengakses semua item dictionary
+print(list(profile.items()))
