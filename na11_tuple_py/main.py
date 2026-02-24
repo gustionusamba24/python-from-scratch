@@ -44,7 +44,7 @@ win = False
 # metode packing (bisa menggunakan `()` atau tanpa `()`)
 row_data = (first_name, rank, win)
 
-print(row_data)
+print("method packing:", row_data)
 
 # Tuple unpacking
 # unpacking adalah istilah untuk menyebar isi suatu data kolektif ke beberapa variabel. Unpacking merupakan kebalikan dari packing
