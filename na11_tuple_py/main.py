@@ -42,7 +42,7 @@ rank = 5
 win = False
 
 # metode packing (bisa menggunakan `()` atau tanpa `()`)
-row_data = (first_name, rank, win)
+row_data = [first_name, rank, win]
 
 print("method packing:", row_data)
 
