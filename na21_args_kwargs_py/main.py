@@ -24,7 +24,7 @@ sum_then_print(1, 2, 3, 4, 5)
 
 
 def print_data(*params):
-    print(f"type: {type(params)}, data: {params}")
+    print(f"type: {type(params).__name__}, data: {params}")
     for i in range(len(params)):
         print(f"param {i}: {params[i]}")
 
@@ -53,7 +53,7 @@ sum_total_with_description("total perhitungan nilai", 1, 2, 3, 4, 5, suffix_msg=
 
 
 def print_data(**data):
-    print(f"type: {type(data)}")
+    print(f"type: {type(data).__name__}")
     print(f"data: {data}")
 
     for key in data:
