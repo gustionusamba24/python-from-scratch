@@ -14,14 +14,14 @@ is_graduated: bool = True
 gpa: float = 3.88
 
 def to_string(student: str, major: str, student_number: int, is_graduated: bool, gpa: float) -> str:
-    return "Student{Name: " + student + ", Major: " + major + ", Number: " + str(student_number) + ", Graduted: " + str(is_graduated) + ", GPA: " + str(gpa) + "}"
+    return "Student{Name: " + student + ", Major: " + major + ", Number: " + str(student_number) + ", Graduated: " + str(is_graduated) + ", GPA: " + str(gpa) + "}"
 
 print("========== Student Description ==========")
 print(f"Name\t\t: {student}")
 print(f"Major\t\t: {major}")
 print(f"Number\t\t: {student_number}")
-print(f"Graduted\t: {is_graduated}")
-print(f"GPA\t\t: {gpa}")
+print(f"Graduated\t: {is_graduated}")
+print(f"GPA\t\t\t: {gpa}")
 
 print(to_string(student, major, student_number, is_graduated, gpa))
 
