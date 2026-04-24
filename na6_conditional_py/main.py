@@ -1,6 +1,6 @@
 str_input = input("Enter your grade: ")
 grade = int(str_input)
-# print("inputan user:", str_input, type(grade))
+print("inputan user:", str_input, type(grade).__name__)
 
 if grade == 100:
     print("perfect")
