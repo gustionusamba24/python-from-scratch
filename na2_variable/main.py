@@ -4,7 +4,7 @@ age = 24
 is_married = False
 
 print("========== Variable ==========")
-print("nama: %s" % (name))
+print("nama: %s" % name)
 print("hobi: %s, umur: %d, sudah menikah? %r" % (hobby, age, is_married))
 
 student: str = "Alucard Sujatmiko"
