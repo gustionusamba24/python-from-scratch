@@ -58,8 +58,8 @@ print()
 initial_number = 2
 for i in range(max):
     for s in range(max - i - 1):
-        print("", end=" ")
+        print(" ", end=" ")
     for j in range(i + 1):
-        print(initial_number, end=" ")
+        print(str(initial_number) + " ", end=" ")
         initial_number += 2
     print()
