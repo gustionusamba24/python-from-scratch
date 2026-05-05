@@ -53,6 +53,8 @@ for i in range(max):
         print(f"{j + 1}", end=" ")
     print()
 
+print()
+
 initial_number = 2
 for i in range(max):
     for s in range(max - i - 1):
