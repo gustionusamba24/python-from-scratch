@@ -107,9 +107,9 @@ print_matrix(res4)
 # output ↓
 #
 # matrix * scalar 4:
-# [2, 4, 6, 8]
-# [10, 12, 14, 16]
-# [18, 20, 22, 24]
+# [4, 8, 12, 16]
+# [20, 24, 28, 32]
+# [36, 40, 44, 48]
 
 print(f"matrix * scalar {7}:")
 res5 = matrix_multiply_scalar(scalar=7, matrix=matrix)
