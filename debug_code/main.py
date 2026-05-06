@@ -29,3 +29,12 @@ print(f"matrix * scalar {5}:")
 res2 = matrix_multiply_scalar(matrix, scalar=5)
 for el in res2: 
     print(el)
+
+data = {'a': 1,
+        'b': [[1, 2],
+              [3, 4]
+              ],
+        'c': 'this is number',
+        'd': ('eren', 'mikasa', 'armin')
+    }
+
