@@ -60,3 +60,7 @@ print(f"is_prei {is_prei}")
 text = "Hujan Kerang Ajaib"
 is_Kerang_exist = "Kerang" in text
 print(f"is_Kerang_exist {is_key_nama_exist}")
+
+num_1 = -9
+num_2 = 2
+print(f"{num_1} // {num_2} = {num_1 // num_2}")
