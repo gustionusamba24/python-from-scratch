@@ -4,7 +4,7 @@
 from traceback import print_tb
 
 """
-    Pengenalan SetL langsung tulis nilai elemen dengan separator `,` dan diapit menggunakan tanda kurung kurawal `{}`
+    Pengenalan Set langsung tulis nilai elemen dengan separator `,` dan diapit menggunakan tanda kurung kurawal `{}`
 """
 data_1 = {1, "abc", False, ('gaming', 'coding')}
 print("data:", data_1)
